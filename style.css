@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1e1e2f;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.intro .text {
+    max-width: 60%;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.intro h2 {
+    font-size: 1.5em;
+    color: #00aaff;
+}
+
+.intro p {
+    margin: 20px 0;
+    color: #b0b0b0;
+}
+
+.intro button {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.about, .skills {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #2e2e3e;
+    border-radius: 10px;
+}
+
+.about h2, .skills h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about p, .skills ul {
+    color: #b0b0b0;
+    font-size: 1em;
+}
+
+.skills ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer .social-links a {
+    color: #00aaff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
